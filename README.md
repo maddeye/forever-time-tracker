@@ -88,3 +88,7 @@ No. It's built for Forever only.
 This is an early version, so a wrong category is likely. [Open an issue](https://github.com/maddeye/forever-time-tracker/issues) with what you were doing and the output of `/ftt debug`.
 
 Want to help build it? See [CONTRIBUTING.md](CONTRIBUTING.md).
+
+## License
+
+[MIT](LICENSE)
