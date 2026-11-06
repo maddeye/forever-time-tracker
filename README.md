@@ -51,7 +51,7 @@ Can't find the folder? In Battle.net, click the gear icon next to Play and choos
 
 ## How to use it
 
-Click the pocket watch on your minimap or type `/ftt`. Drag the window to move it, and press Escape to close it.
+Click the stopwatch on your minimap or type `/ftt`. Drag the window to move it, and press Escape to close it.
 
 | Command | What it does |
 | --- | --- |

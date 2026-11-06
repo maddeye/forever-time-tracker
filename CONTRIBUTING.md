@@ -11,6 +11,10 @@ lua5.1 tests/run.lua /tmp/renders   # also write each UI view to that existing f
 
 `tests/harness.lua` is a strict fake of the client API. It checks logic and layout but can't prove behavior in the real game, so try changes in-game too.
 
+## Icons
+
+`python3 tools/build_icons.py brave` rebuilds the logo and the in-game icon. It needs Pillow and any Chromium-based browser.
+
 ## How time is sorted
 
 Once per second the addon assigns the last second to exactly one category. The first match wins:
@@ -42,7 +46,7 @@ Pushing a tag starts `.github/workflows/release.yml`. It runs the tests, builds 
 
 One-time setup:
 
-1. Create the project at [authors.curseforge.com](https://authors.curseforge.com) and pick a license. Paste `docs/curseforge-description.md` as the description and upload `assets/screenshots/` to the gallery.
+1. Create the project at [authors.curseforge.com](https://authors.curseforge.com) and pick a license. Paste `docs/curseforge-description.md` as the description upload `assets/icon.png` as the logo, and upload `assets/screenshots/` to the gallery.
 2. Add its ID to `ForeverTimeTracker/ForeverTimeTracker.toc` as `## X-Curse-Project-ID: 123456`. Without this line the packager skips CurseForge.
 3. Create an API token at [legacy.curseforge.com/account/api-tokens](https://legacy.curseforge.com/account/api-tokens) and save it as the repository secret `CF_API_KEY`.
 

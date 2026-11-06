@@ -390,5 +390,17 @@ test("minimap button: dragging moves it, unless a collector has taken it over", 
     equal(button.points.TOPLEFT.relative, flyout, "collector's anchor kept")
 end)
 
+test("the in-game icon is a texture format the client can load", function()
+    local file = assert(io.open("ForeverTimeTracker/Media/icon.tga", "rb"))
+    local header = file:read(18)
+    file:close()
+    equal(header:byte(3), 2, "uncompressed true color")
+    local width = header:byte(13) + header:byte(14) * 256
+    local height = header:byte(15) + header:byte(16) * 256
+    equal(width, 64, "width is a power of two")
+    equal(height, 64, "height is a power of two")
+    equal(header:byte(17), 32, "has an alpha channel")
+end)
+
 print(string.format("%d tests, %d failed", count, failures))
 os.exit(failures == 0 and 0 or 1)

@@ -28,7 +28,7 @@ Forever Time Tracker sorts every second you spend in World of Warcraft: Forever 
 
 ## How to use it
 
-Click the pocket watch on your minimap or type `/ftt`. With EllesmereUI, the button sits in the group button's flyout unless you turn on "Ungroup Minimap Buttons".
+Click the stopwatch on your minimap or type `/ftt`. With EllesmereUI, the button sits in the group button's flyout unless you turn on "Ungroup Minimap Buttons".
 
 - `/ftt` opens or closes the window
 - `/ftt minimap` hides or shows the minimap button

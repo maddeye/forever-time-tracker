@@ -11,6 +11,7 @@ ignore:
   - assets
   - docs
   - tests
+  - tools
   - CHANGELOG.md
   - CONTRIBUTING.md
   - README.md

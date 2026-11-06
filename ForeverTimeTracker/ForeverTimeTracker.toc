@@ -4,8 +4,9 @@
 ## Author: maddeye
 ## Version: @project-version@
 ## X-Website: https://github.com/maddeye/forever-time-tracker
+## X-Curse-Project-ID: 1787059
 ## SavedVariables: ForeverTimeTrackerDB
-## IconTexture: Interface\Icons\INV_Misc_PocketWatch_01
+## IconTexture: Interface\AddOns\ForeverTimeTracker\Media\icon
 ## AddonCompartmentFunc: ForeverTimeTracker_OnCompartmentClick
 
 Core.lua
