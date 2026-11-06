@@ -1,0 +1,16 @@
+package-as: ForeverTimeTracker
+
+manual-changelog:
+  filename: CHANGELOG.md
+  markup-type: markdown
+
+move-folders:
+  ForeverTimeTracker/ForeverTimeTracker: ForeverTimeTracker
+
+ignore:
+  - assets
+  - docs
+  - tests
+  - CHANGELOG.md
+  - CONTRIBUTING.md
+  - README.md

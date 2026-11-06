@@ -1,0 +1,15 @@
+## Interface: 16001
+## Title: Forever Time Tracker
+## Notes: Shows how your playtime splits into fighting, traveling, crafting, AFK and more.
+## Author: maddeye
+## Version: @project-version@
+## X-Website: https://github.com/maddeye/forever-time-tracker
+## SavedVariables: ForeverTimeTrackerDB
+## IconTexture: Interface\Icons\INV_Misc_PocketWatch_01
+## AddonCompartmentFunc: ForeverTimeTracker_OnCompartmentClick
+
+Core.lua
+Store.lua
+Classifier.lua
+Tracker.lua
+UI.lua
